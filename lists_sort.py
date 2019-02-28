@@ -11,7 +11,7 @@ def list_sort(h):
 
         if isinstance(n, int):
             if n % 2 == 0:
-                evens.append(h)
+                evens.append(n)
             
             else:
                 odds.append(n)
